@@ -1,3 +1,8 @@
+For this project I chose to do number 4 which was to check if a string had balanced parentheses. I then add 3 other features which were Infix to Postfix, Postfix to Infix, and Infix to Prefix.
+For this project since it required a GUI I went with wxWidgets. This helped teach me about linking libraries into my project. The steps below are how to run the code. The first method 
+is the easiest method since you just have to run the executable i.e the Final_Project.exe . The other method requires downloading wxWidgets, compiling its source code to get the binaries then linking it in the project.
+
+
 Easies method to run program
 - Open the bin folder and click on Final_Project.exe
 
