@@ -7,10 +7,11 @@ Harder Method if you want to compile yourself
 3. Make sure that the platform is x86
 4. Open the Properties Manager and change to All Configurations and Win32
 5. Under Property Pages in the C/C++ section in the Additional Include Directories remove the two lines
-   dependencies/wxWidgets/include/msvc and
-   dependencies/wxWidgets/include 
+   1. dependencies/wxWidgets/include/msvc and
+   2. dependencies/wxWidgets/include 
 6. Then in the same location you have to add 2 lines.
-   1. the filepath to your wxWidgets/include/msvc, and 2. wxWidgets/include
+   1. the filepath to your wxWidgets/include/msvc, and 
+   2. the filepath to your wxWidgets/include
 7. Under property Pages in the Linker general section in the Additional Library Directories delete the line
    dependencies/wxWidgets/lib/vc_lib
 8. Then in the same location you have to add 1 line
